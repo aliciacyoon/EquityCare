@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <main className="bg-[#fff6f6]">
+    <main className="bg-[#f7f2df]">
 
       {/* Hero — red bg with dark overlay, "Contact Us" title + contact info */}
       <section className="bg-[#b91f24] relative">

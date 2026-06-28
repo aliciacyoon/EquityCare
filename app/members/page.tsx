@@ -59,7 +59,7 @@ export default function MembersPage() {
   );
 
   return (
-    <main className="bg-white">
+    <main className="bg-[#f7f2df]">
       <section className="relative h-[460px] flex items-center justify-center overflow-hidden">
         <img
           src={heroImage}
@@ -88,7 +88,7 @@ export default function MembersPage() {
               placeholder="Search..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 rounded-full bg-white text-gray-800 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#b91f24]"
+              className="w-full pl-10 pr-4 py-3 rounded-full bg-[#f7f2df] text-gray-800 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#b91f24]"
             />
             <button className="absolute top-1/2 -translate-y-1/2 flex items-center gap-1.5 px-6 py-2.5 rounded-full bg-[#b91f24] text-white text-sm font-medium" style={{ right: "-3rem" }}>
               All
@@ -100,7 +100,7 @@ export default function MembersPage() {
         </div>
       </section>
 
-      <div className="w-full bg-white px-8 py-3 relative z-30">
+      <div className="w-full bg-[#f7f2df] px-8 py-3 relative z-30">
         <div className="relative w-full max-w-5xl mx-auto">
           <svg
             className="absolute left-4 top-1/2 -translate-y-1/2 text-white w-4 h-4 z-10"

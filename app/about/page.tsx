@@ -17,7 +17,7 @@ const sectionImage = "/images/section-bg.png";
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#fff6f6]">
+    <main className="bg-[#f7f2df]">
       {/* Hero — 330px tall, overlay rgba(70,49,52,0.52) */}
       <section className="relative h-[330px] flex items-center justify-center overflow-hidden">
         <img
@@ -32,7 +32,7 @@ export default function AboutPage() {
       </section>
 
       {/* How We Started */}
-      <section className="bg-[#fff6f6] py-16 px-6">
+      <section className="bg-[#f7f2df] py-16 px-6">
         <div className="mx-auto max-w-6xl flex gap-12 items-start">
           <div className="shrink-0 w-[412px] h-[510px] bg-[#d9d9d9]" />
           <div className="flex-1 pt-4">
@@ -293,7 +293,7 @@ export default function AboutPage() {
       </div>
 
       {/* Partner with Us Section */}
-      <div className="bg-white py-10">
+      <div className="bg-[#f7f2df] py-10">
         <div className="bg-[#2F5592] rounded-[20px] py-10 px-10 text-center max-w-lg mx-auto">
         <h3 className="text-white font-bold text-[3.16rem] leading-[3.51rem] mb-4 font-[family-name:var(--font-heading)]">
           Partner with us

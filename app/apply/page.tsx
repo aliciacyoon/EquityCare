@@ -139,7 +139,7 @@ export default function ApplyPage() {
       </section>
 
       {/* Executive team */}
-      <section className="w-full bg-gray-200 pb-16">
+      <section className="w-full bg-[#f7f2df] pb-16">
         {/* Header */}
         <div className="w-full bg-[#3b5f95] py-6 text-center">
           <h2 className="text-6xl font-semibold text-white">Join the Executive Team</h2>

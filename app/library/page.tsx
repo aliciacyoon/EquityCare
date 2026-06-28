@@ -81,7 +81,7 @@ export default function LibraryPage() {
   }, [filtered]);
 
   return (
-    <main className="bg-[#f5f2f0] text-slate-900">
+    <main className="bg-[#f7f2df] text-slate-900">
       <PageHero
         title="Library"
         subtitle="Archive of Past Summits & Documents"
