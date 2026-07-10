@@ -20,8 +20,8 @@ const bodyFont = Plus_Jakarta_Sans({
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "G7/G20 Youth Japan",
-  description: "Official site for G7/G20 Youth Japan",
+  title: "EquityCare",
+  description: "Official site for EquityCare",
 };
 
 export default function RootLayout({

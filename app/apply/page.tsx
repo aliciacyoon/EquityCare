@@ -56,7 +56,10 @@ export default function ApplyPage() {
         <div className="bg-[#f28b1e] text-white text-center py-6">
           <h2 className={`${leagueSpartan.className} text-6xl font-bold`}>Become a Volunteer</h2>
         </div>
+        </section>
 
+        
+{/**
         <div className="max-w-6xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-6 text-gray-800">
 
@@ -78,7 +81,7 @@ export default function ApplyPage() {
               </ul>
             </div>
 
-            {/* Social Icons */}
+            {/* Social Icons }
             <nav className="flex gap-12">
               <Link href="https://www.instagram.com/g7g20youthjapan/" target="_blank" rel="noopener noreferrer" className={linkStyle}><Instagram className={iconStyle}/></Link> 
               <Link href="https://www.facebook.com/G7G20YouthJapan/" target="_blank" rel="noopener noreferrer" className={linkStyle}><Facebook className={iconStyle}/></Link>
@@ -87,7 +90,7 @@ export default function ApplyPage() {
             </nav>
           </div>
 
-          {/* Image placeholders */}
+          {/* Image placeholders }
           <div className="flex flex-col items-center gap-10">
             <img className="w-48 h-48 bg-gray-300 rounded-full border border-gray-400" src="#"/>
             <img className="w-48 h-48 bg-gray-300 rounded-full border border-gray-400" src="#"/>
@@ -96,22 +99,22 @@ export default function ApplyPage() {
 
         </div>
 
-        {/* Bottom Divider */}
+        {/* Bottom Divider }
         <div className="max-w-6xl mx-auto px-8 pb-8">
           <div className="border-t border-gray-400"></div>
         </div>
       </section>
 
-      {/* Recruitment process */}
+      {/* Recruitment process }
       <section className="w-full bg-[#c77f7f] py-16 flex flex-col items-center gap-16">
 
-        {/* Timeline */}
+        {/* Timeline }
         <div className="w-[90%] max-w-6xl text-white p-6">
           <h2 className="text-6xl font-semibold text-left mb-6">Our Recruitment Process for Delegates:</h2>
           <img src="/images/recruitment-timeline.png" className="w-full h-auto" alt="Apply background"/>
         </div>
 
-        {/* Steps */}
+        {/* Steps }
         <div className="w-[90%] max-w-5xl text-white flex flex-col gap-6">
           <div className="border-t border-white/40 pt-6">
             <button onClick={() => toggleStep(1)} className="w-full flex justify-between items-center mb-3 cursor-pointer">
@@ -138,15 +141,15 @@ export default function ApplyPage() {
         </div>
       </section>
 
-      {/* Executive team */}
+      {/* Executive team }
       <section className="w-full bg-[#f7f2df] pb-16">
-        {/* Header */}
+        {/* Header }
         <div className="w-full bg-[#3b5f95] py-6 text-center">
           <h2 className="text-6xl font-semibold text-white">Join the Executive Team</h2>
         </div>
 
         <div className="max-w-6xl mx-auto px-6 pt-10">
-          {/* Image placeholders */}
+          {/* Image placeholders }
           <div className="flex flex-row items-center justify-center gap-30">
             <img className="w-48 h-48 bg-gray-300 border border-gray-400" src="#"/>
             <img className="w-48 h-48 bg-gray-300 border border-gray-400" src="#"/>
@@ -163,6 +166,8 @@ export default function ApplyPage() {
           </div>
         </div>
       </section>
+    </main>
+    **/}
     </main>
   );
 } 

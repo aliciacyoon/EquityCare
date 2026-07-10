@@ -63,7 +63,7 @@ export default function MembersPage() {
       <section className="relative h-[460px] flex items-center justify-center overflow-hidden">
         <img
           src={heroImage}
-          alt="G7/G20 Youth Japan Members"
+          alt="EquityCare Members"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: "center 30%" }}
         />

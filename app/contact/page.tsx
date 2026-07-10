@@ -11,7 +11,7 @@ export default function ContactPage() {
           {/* Divider */}
           <div className="mx-auto mt-4 mb-10 h-px w-[463px] bg-white/40" />
           <p className="text-[2.1rem] font-medium leading-[1.2] tracking-[0.006px] text-[#fd898c] font-[family-name:var(--font-body)]">
-            Have questions about YDC? Our Delegations? Partnership opportunities?
+            Have questions about EquityCare? Our Events? Volunteer opportunities?
           </p>
           <p className="mt-6 text-[2.1rem] font-medium leading-[1.2] tracking-[0.006px] text-[#fd898c] font-[family-name:var(--font-body)]">
             Send us an email:
