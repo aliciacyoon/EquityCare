@@ -2,13 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import { useState } from "react";
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-plus-jakarta-sans",
-});
 
 const links = [
   { href: "/", label: "Home" },
@@ -23,7 +17,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className={`${plusJakartaSans.className} drop-shadow-lg bg-[#f26f07] text-[#333333]`}>
+    <nav className="font-[family-name:var(--font-body)] drop-shadow-lg bg-[#f26f07] text-[#333333]">
       {/* Top bar */}
       <div className="flex items-center justify-between px-6 py-4">
         <Link href="/" onClick={() => setOpen(false)}>
