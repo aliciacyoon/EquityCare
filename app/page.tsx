@@ -22,7 +22,7 @@ export default function HomePage() {
               Become a Volunteer!
             </a>
           </div>
-          <div className="shrink-0 flex items-center justify-center md:scale-100 scale-75">
+          <div className="shrink-0 flex items-center justify-center md:scale-100 scale-75 md:-ml-12">
             <Animation />
           </div>
         </div>
