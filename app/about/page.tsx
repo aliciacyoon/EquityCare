@@ -34,7 +34,7 @@ export default function AboutPage() {
       {/*Our Mission */}
       <section className="bg-[#f7f2df] py-16 px-6">
         <div className="mx-auto max-w-6xl flex gap-12 items-start">
-          <div className="shrink-0 w-[412px] h-[510px] bg-[#d9d9d9]" />
+          <img src="/images/ourmission.jpeg" alt="Our Mission" className="shrink-0 w-[412px] h-[510px] object-cover rounded-lg" />
           <div className="flex-1 pt-4">
             <h2 className="text-[3.16rem] font-bold text-center mb-4 text-black leading-[3.51rem] tracking-[0.03px] font-[family-name:var(--font-heading)]">
               Our Mission
@@ -56,7 +56,7 @@ export default function AboutPage() {
 
        <section className="bg-[#f7f2df] py-16 px-6">
         <div className="mx-auto max-w-6xl flex gap-12 items-start">
-          <div className="shrink-0 w-[412px] h-[510px] bg-[#d9d9d9]" />
+          <img src="/images/ourapproach.jpeg" alt="Our Approach" className="shrink-0 w-[412px] h-[510px] object-cover rounded-lg" />
           <div className="flex-1 pt-4">
             <h2 className="text-[3.16rem] font-bold text-center mb-4 text-black leading-[3.51rem] tracking-[0.03px] font-[family-name:var(--font-heading)]">
               Our Approach
